@@ -63,3 +63,5 @@ primární texty a zvláště sekundární literatura bývají chráněny autors
 
 Workflow: Josef Šlerka, "AI-Assisted Academic Writing Pipeline" (spring 2026). Adapt freely. /
 Adaptujte volně.
+
+**License / Licence:** [MIT](LICENSE) © 2026 Josef Šlerka.
