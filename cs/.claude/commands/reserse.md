@@ -20,8 +20,13 @@ Pro nový soubor v `raw_secondary/`:
    umí novost tiše sebrat.)
 7. TYP A ROVNOVÁHA: metodologický zdroj (nástroj/technika), nebo tematický
    (výzkum přímo o tvém problému)? Samé nástroje bez tematického výzkumu =
-   rešerše, která se s ničím nekonfrontuje — NAHLAS disbalanci.
-8. Připiš JEN to, co v souboru najdeš — nikdy „autor by nejspíš tvrdil". Zdroj
+   rešerše, která se s ničím nekonfrontuje — NAHLAS disbalanci. Klíčové definice
+   a pozice musí stát na recenzovaných zahraničních zdrojích, ne na blozích.
+8. REŠERŠNÍ PROTOKOL: zapisuj do `process/reserse.md`, jakými klíčovými slovy,
+   v jakých databázích a s jakými počty výsledků člověk hledal (ptej se ho).
+   Jen s tímhle protokolem smí práce použít pojem „SLR". Navrhni citation
+   chaining (koho zdroj cituje / kdo cituje jeho).
+9. Připiš JEN to, co v souboru najdeš — nikdy „autor by nejspíš tvrdil". Zdroj
    mimo `raw_secondary/` vůbec nejmenuj.
 
 Zaloguj. Po několika zdrojích nabídni, že z `reserse.md` napíšeš kapitolu Rešerše

@@ -172,6 +172,91 @@ to znamená průšvih pro člověka, ne pro tebe).
 
 ---
 
+## Fakultní kritéria (FIS VŠE) — komise podle nich hodnotí obhajitelnost
+
+Destilát oficiálních „Doporučení pro tvorbu závěrečných prací na FIS" a pokynů
+vedoucího (KIT). Tohle nejsou rady — nesplnění položky je argument komise, proč
+je práce neobhajitelná. Gates níže na ně odkazují.
+
+**Cíl.**
+- Cíl se vztahuje k odbornému problému, NIKDY k textu práce, čtenáři nebo autorovi.
+  Zakázané formulace cíle: „napsat text", „popsat problematiku", „vysvětlit",
+  „sdělit čtenáři", „seznámit se s literaturou".
+- Specifičnost cíle je argumentovaná — nejde o generický, mnohokrát stejně řešený
+  problém. Smysluplnost cíle je argumentovaná vůči východiskům.
+- Ujasni typ práce: **aplikovat** (řemeslo — spíš BP) / **navrhovat** (software,
+  metodika — návrhový výzkum) / **zkoumat** (empirie — kvalitativní/kvantitativní).
+  DP = inženýrské nebo aplikovaně vědecké dílo, ne aplikace do praxe bez přesahu.
+
+**Východiska (teorie).**
+- Obsahují JEN poznatky, které mají vliv na výsledky. Žádná rekapitulace zřejmých
+  poznatků ze základních kurzů (učebnicová kapitola „co je neuronová síť" = škrt).
+- Teoretická a praktická část jsou jeden celek s zřejmou návazností; nedělit práci
+  explicitně na „teoretickou" a „praktickou" část. Řídit se logikou IMRaD:
+  Úvod a teorie (3–5 kapitol) → Metodika (1) → Výsledky (1–3) → Diskuse + závěr (1–2).
+- Menší rozsah teorie oproti empirii nevadí; **naopak to neplatí** — teorie delší
+  než vlastní práce je červená vlajka.
+
+**Metodika.**
+- Postup popsaný v krocích, z nichž lze odhadnout pracnost; oddělený od výsledků.
+- Postup uvádí VEŠKEROU provedenou práci; neprovedené kroky zřetelně označené
+  + důvod. Nikdy nepředstírej krok, který neproběhl.
+- Konkrétně, ne obecnými názvy myšlenkových postupů („analýza, dedukce, syntéza"
+  bez obsahu nestačí). Zavedené metody se nevysvětlují do detailu — odkázat na
+  jeden kvalitní zdroj a **zdůvodnit volbu** + popsat odchylky.
+- Reprodukovatelnost: podle popisu by jiný řešitel došel k obdobným výsledkům.
+
+**Výsledky.**
+- Z formulace textu je VŽDY zřejmé, co je: (a) PŮVODNÍ výsledek studenta,
+  (b) PŘEVZATÝ fakt ze zdroje (s citací), (c) SPEKULACE / diskuse. Tohle značení
+  hlídej v každé kapitole — je to fakultní obdoba pravidla o provenienci.
+- Dílčí výsledky jako výstupy jednotlivých kroků metodiky; méně důležité do příloh.
+- Provedení kroků je DOLOŽENÉ (výpočty, statistika, kód, záznamy) — přílohy práce.
+
+**Závěry.**
+- Hodnotí míru naplnění cíle; argumentují přínos k problému; popisují vliv na
+  kontext (další pokračování); zmiňují omezení.
+
+**Diplomka navíc (vs. BP).**
+- Významně prohlubuje poznání v tématu; vlastní přínos autora explicitně
+  specifikovaný a v souladu s cíli.
+- **Validace výsledků je POVINNÁ** — srovnání s literaturou, matematický důkaz,
+  strukturované rozhovory, exaktní testování/měření. Musí být naplánovaná
+  v metodice, ne dolepená v závěru.
+- Původní přínos (praktický či teoretický) překračuje kontext realizace — u obhajoby
+  padne: „Čím je práce původní? Lze ji použít i jinde než ve firmě, kde vznikla?"
+  Odpověď musí být v textu.
+
+**Zdroje a rešerše.**
+- Kvalitní recenzované (peer-reviewed) zahraniční zdroje jsou v DP nezbytné.
+  Klíčové definice z recenzované literatury, ne z blogů či studentských prací
+  (ty jen jako doklad popularity tématu / srovnání výsledků).
+- Citation chaining: u nalezeného článku projít „okolí" (kdo ho cituje, koho cituje).
+- **Pojem „systematická rešerše (SLR)" jen s dokumentací:** přesná klíčová slova,
+  prohledané databáze, počty výsledků na dotaz (tabulkou), kritéria výběru.
+  Bez toho pojem SLR v práci NEPOUŽÍVAT — nesystematický postup vydávaný za SLR
+  oponent pozná. Rozumné minimum: „minimalistické SLR" nad jednou databází (ACM)
+  + nesystematické doplnění.
+- Citovat jen zdroje použité pro řešení nebo vymezení kontextu — žádná výplň.
+
+**Stylistika a forma.**
+- Neosobní/pasivní forma v těle práce; 1. osoba jednotného čísla střídmě a jen
+  v úvodu/závěru. ZÁKAZ inkluzivního plurálu („ukažme si", „podívejme se") a
+  autorského plurálu („v této práci demonstrujeme"). Místo „v této kapitole
+  ukazuji" → „tato kapitola ukazuje".
+- Žádný budoucí čas („v práci bude ukázáno") — výjimka: future work v závěru.
+- Citační odkaz patří PŘED tečku. Jméno autora ve větě → „Novák (2010) argumentuje…".
+- Každá zkratka zavedená při prvním použití v textu (i když existuje seznam zkratek).
+- České odborné pojmy při prvním použití s anglickým originálem v závorce.
+- Názvy knih kurzivou, názvy článků v uvozovkách.
+- Každý obrázek a tabulka: číslované, odkazované z textu, popsané, s uvedeným
+  zdrojem (překreslené = „Vlastní zpracování podle X"). Nic v práci, na co text
+  neodkazuje. Převzaté obrázky/tabulky překreslit do jazyka práce, ne skenovat.
+- URL softwarových nástrojů/produktů do poznámky pod čarou, NE do seznamu
+  literatury (nezaplevelit reference).
+
+---
+
 ## Jak vedeš (chování průvodce)
 
 Tohle je interaktivní, ne dávkové:
@@ -203,6 +288,10 @@ slash příkazy jen spouštějí příslušnou fázi.
 - *Test výzkumné otázky (5 podmínek):* je specifická (ne „prozkoumat X")?
   falzifikovatelná/měřitelná? zodpověditelná s dostupnými daty, výpočetními
   prostředky a časem? nová vůči načtené literatuře? kryje oficiální zadání práce?
+- *Test formulace cíle (fakultní kritéria):* vztahuje se cíl k odbornému problému,
+  ne k textu/čtenáři/autorovi? (zakázané: „popsat", „vysvětlit", „seznámit se")
+  Je jasný typ práce: aplikovat / navrhovat / zkoumat? Je patrný plánovaný přínos,
+  který překračuje kontext realizace?
 - *5 reformulací podle rizika:* A deskriptivní/replikační (min. risk) → B komparativní
   (srovnání metod/nástrojů) → C explanatorní (proč/kdy to funguje) → D návrh nové
   metody či artefaktu → E provokativní (jde proti konsensu oboru). Předlož všech 5,
@@ -222,16 +311,17 @@ slash příkazy jen spouštějí příslušnou fázi.
 ### BLOK B — Architektura · `/kostra`, `/metodika`, `/uvod`, `/evidence`
 
 **2.1 + 2.2 Strategie a kostra · `/kostra`.**
-- Navrhni strukturu kapitol diplomky. Typická kostra: Úvod → Rešerše (related work)
-  → Teoretická východiska (volitelně) → Návrh / Metodika → Implementace →
-  Experimenty a vyhodnocení → Diskuse → Závěr. Přizpůsob typu práce (návrhová /
-  experimentální / BI-analytická) a šabloně fakulty z `idea.md`.
+- Navrhni strukturu kapitol diplomky **logikou IMRaD** (fakultní kritéria):
+  Úvod a teorie (3–5 kapitol) → Metodika (1) → Výsledky (1–3) → Diskuse + závěr
+  (1–2). NEDĚLIT explicitně na „teoretickou" a „praktickou" část. Přizpůsob typu
+  práce (návrhová / výzkumná / BI-analytická) a šabloně fakulty z `idea.md`.
 - Pro každou kapitolu definuj: FUNKCE (dokazuje/popisuje/vyhodnocuje/syntetizuje),
   VSTUPNÍ PODMÍNKA, VÝSTUPNÍ STAV, TYP EVIDENCE (literatura / vlastní měření /
   konstrukce), DÉLKA (% celku).
 - **GATE (test kostry):** (1) odeberu kapitolu → zhroutí se argument? (2) prohodím
   dvě → změní se logika? (3) je Diskuse+Závěr víc než zopakování výsledků?
-  (4) kryje kostra všechny body oficiálního zadání?
+  (4) kryje kostra všechny body oficiálního zadání? (5) není teorie rozsahem delší
+  než vlastní práce? (menší teorie nevadí, opak je červená vlajka)
 - **VÝSTUP:** `process/kostra.md`.
 
 **2.3 Metodika · `/metodika`.** Páteř technické práce; píše se PŘED experimenty,
@@ -242,12 +332,16 @@ ne po nich.
   stejné podmínky).
 - *Metriky:* definice každé metriky + proč zrovna ona; co metrika NEměří.
 - *Protokol:* seedy, počty opakování, hyperparametry, prostředí (HW/SW verze) —
-  vše, co určuje reprodukovatelnost.
+  vše, co určuje reprodukovatelnost. Postup v krocích s odhadnutelnou pracností,
+  konkrétně (ne „analýza, syntéza"); neprovedené kroky značené + důvod.
 - *Hrozby validity:* interní (confoundy, leakage), externí (zobecnitelnost),
   konstrukční (měří metrika to, co tvrdíme?).
+- *Validace výsledků (pro DP povinná, fakultní kritérium):* naplánuj UŽ TADY, jak
+  budou výsledky validované — srovnání s literaturou, důkaz, strukturované
+  rozhovory, exaktní testování/měření. Validace dolepená až v závěru neobstojí.
 - **GATE (test reprodukovatelnosti):** dokázal by cizí člověk experiment z popisu
   zopakovat? Má každé plánované tvrzení výsledkové kapitoly předem definované
-  měření? Když ne, doplň před prvním experimentem.
+  měření? Je naplánovaná validace? Když ne, doplň před prvním experimentem.
 - **VÝSTUP:** `process/metodika.md`.
 
 **2.4 Design úvodu · `/uvod`.**
@@ -296,9 +390,12 @@ výsledek:
 **3.3 Psaní draftu · `/draft`.** Vstup: `kostra.md` + `metodika.md` + `evidence.md`
 + `prechody.md` + `uvod-navrhy.md`. Generuj text kapitolu po kapitole, každá jako
 samostatný soubor ve `study/` (`01-uvod.md`, `02-…md`, …). Dodržuj plánovaný rozsah.
-Čistý akademický text, APA 7 citace v textu. Žádné meta-komentáře ve `study/` —
-ty patří do `process/`. Každé číslo ověř proti `raw_primary/` a každou citaci proti
-`raw_secondary/` PŘED zapsáním.
+Čistý akademický text, APA 7 citace v textu, stylistika dle fakultních kritérií
+(neosobní forma, žádný budoucí čas, citace před tečkou, zkratky a pojmy zavedené,
+obrázky/tabulky odkazované + zdroj). Žádné meta-komentáře ve `study/` — ty patří
+do `process/`. Každé číslo ověř proti `raw_primary/` a každou citaci proti
+`raw_secondary/` PŘED zapsáním. V každé kapitole drž rozlišení: původní výsledek /
+převzatý fakt (citace) / spekulace-diskuse.
 - **VÝSTUP:** `study/NN-*.md`.
 
 ### BLOK D — Revize a finalizace · `/diagnostika`, `/skrty`, `/review`, `/revize`, `/oponent`, `/checklist`
@@ -343,12 +440,14 @@ materiál k odpovědi (nebo navrhni chybějící experiment), navrhni úpravu a 
 umístit, pak implementuj. Iteruj, dokud nejsou vyřešené všechny ZÁSADNÍ námitky.
 - **VÝSTUP:** `process/reakce.md` + opravené kapitoly.
 
-**4.5 Finální checklist · `/checklist`.** Projdi 6 kategorií: argument, evidence
+**4.5 Finální checklist · `/checklist`.** Projdi 7 kategorií: argument, evidence
 a čísla, metodika + reprodukovatelnost, literatura + APA 7 (každá citace v textu
-má položku v seznamu a obráceně; žádný zdroj mimo `raw_secondary/`), formální
-náležitosti fakulty (struktura, zadání, abstrakt CZ+EN, seznamy obrázků/tabulek/
-zkratek, prohlášení — dle šablony z `idea.md`), čitelnost. Poslední test: přečti
-jen 1. a poslední větu každé kapitoly — tvoří koherentní příběh?
+má položku v seznamu a obráceně; žádný zdroj mimo `raw_secondary/`), **fakultní
+kritéria** (celá sekce „Fakultní kritéria (FIS VŠE)" položku po položce — komise
+podle ní argumentuje neobhajitelnost), formální náležitosti fakulty (struktura,
+zadání, abstrakt CZ+EN, seznamy obrázků/tabulek/zkratek, prohlášení — dle šablony
+z `idea.md`), čitelnost. Poslední test: přečti jen 1. a poslední větu každé
+kapitoly — tvoří koherentní příběh?
 - **VÝSTUP:** `process/checklist.md`.
 
 ### Bonus · `/zaver`, `/abstrakt`
@@ -393,6 +492,12 @@ ji širší výzkum nezaplnil, neposoudím" a eskaluje na člověka (sežeň zdr
     (pravidlo 8) — je kauzalita značená?
   - je nějaký negativní výsledek „zachráněn" post-hoc příběhem? (pravidlo 8b)
   - jednotky a zaokrouhlování konzistentní?
+  - je v každé kapitole rozlišitelné, co je původní výsledek / převzatý fakt /
+    spekulace? (fakultní kritérium)
+  - stylistika: budoucí čas v těle práce? inkluzivní/autorský plurál? citace za
+    tečkou? nezavedené zkratky? obrázek/tabulka bez odkazu z textu nebo bez zdroje?
+  - používá se pojem „SLR", aniž je rešerše dokumentovaná (klíčová slova, databáze,
+    počty, kritéria výběru)?
   - cyrilské homoglyfy v české sazbě? (strojová kontrola znaků)
 
 `log.md` je živý stav, ne jen audit — díky němu je projekt resumovatelný mezi
@@ -422,7 +527,13 @@ nabaluje: parafrázuješ propoziční pozice s atribucí, ne doslovné doklady.
 7. **Hlídej typ a rovnováhu:** metodologický zdroj (nástroj/technika, kterou
    používáš) vs. tematický zdroj (výzkum přímo o tvém problému). Práci drží obojí;
    samé nástroje bez tematického výzkumu = rešerše, která se s ničím nekonfrontuje.
-   Nahlas disbalanci.
+   Nahlas disbalanci. Hlídej i kvalitu: klíčové definice a pozice musí stát na
+   recenzovaných zahraničních zdrojích, ne na blozích (fakultní kritérium).
+8. **Dokumentuj rešeršní protokol.** Veď v `process/reserse.md` záznam: jakými
+   klíčovými slovy, v jakých databázích a s jakými počty výsledků člověk hledal
+   (ptej se ho, ty nevyhledáváš). Jen s tímhle protokolem smí práce použít pojem
+   „systematická rešerše (SLR)" — jinak ho v textu nepoužívej. Navrhni citation
+   chaining: u klíčového zdroje projít, koho cituje a kdo cituje jeho.
 
 Z `process/reserse.md` pak umíš napsat kapitolu Rešerše i situování úvodu
 (konsenzus → mezera → tato práce) — pod stejným groundingem, takže žádný

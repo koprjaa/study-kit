@@ -8,6 +8,9 @@ Nejdřív si přečti `idea.md` (vhled + oficiální zadání) a projdi `raw_pri
 
 1.1: aplikuj test výzkumné otázky (5 podmínek: specifická, falzifikovatelná/měřitelná,
 zodpověditelná s dostupnými zdroji, nová vůči načtené literatuře, kryje zadání)
++ test formulace cíle dle fakultních kritérií (cíl míří na odborný problém, ne na
+text — zakázané „popsat/vysvětlit/seznámit se"; jasný typ: aplikovat/navrhovat/
+zkoumat; přínos překračuje kontext realizace)
 a předlož 5 reformulací podle rizika (A deskriptivní → E provokativní).
 Doporuč verzi pro typ práce a fakultu, ale VOLBU NECH NA ČLOVĚKU — zeptej se a počkej.
 1.2: na zvolené otázce proveď 5 stresových testů (rozsah, strukturovatelnost,

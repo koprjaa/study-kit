@@ -10,6 +10,12 @@ vyplň idea.md (vč. oficiálního zadání), pak spusť /teze
 
 ## Záznam
 <!-- YYYY-MM-DD  fáze  co se rozhodlo / co vzniklo -->
+2026-07-03  pokyny  Zapracována fakultní kritéria FIS VŠE (Doporučení pro tvorbu
+            závěrečných prací + pokyny vedoucího KIT): nová sekce „Fakultní
+            kritéria" v CLAUDE.md; test formulace cíle v /teze; IMRaD + proporce
+            teorie v /kostra; kroky/pracnost/povinná validace v /metodika;
+            rešeršní protokol (SLR) v /reserse; stylistika + značení
+            původní/převzaté/spekulace v /draft, /checklist, /lint, /oponent.
 2026-07-03  adaptace  Kit adaptován z literárněvědné studie na technickou
             diplomku (informatika/AI/BI, APA 7): raw_primary/ = vlastní artefakty
             (data, logy, metriky), raw_secondary/ = literatura; přidán /metodika,

@@ -18,6 +18,13 @@ co mění význam):
   je kauzalita značená? (pravidlo 8)
 - je nějaký negativní výsledek „zachráněn" post-hoc příběhem? (pravidlo 8b)
 - jednotky a zaokrouhlování konzistentní? (zaokrouhlení nesmí otočit srovnání)
+- je v každé kapitole rozlišitelné, co je PŮVODNÍ výsledek / PŘEVZATÝ fakt /
+  SPEKULACE? (fakultní kritérium)
+- stylistika: budoucí čas v těle práce? inkluzivní/autorský plurál („ukažme si",
+  „demonstrujeme")? citace za tečkou? nezavedené zkratky? obrázek/tabulka bez
+  odkazu z textu nebo bez zdroje?
+- používá se pojem „SLR" bez dokumentovaného protokolu (klíčová slova, databáze,
+  počty, kritéria výběru)?
 - prošly všechny quality gates z CLAUDE.md?
 - cyrilské homoglyfy v české sazbě? (strojová kontrola znaků)
 Navrhni opravy, ale rozhodnutí nech na člověku.

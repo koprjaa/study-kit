@@ -3,9 +3,12 @@ description: Blok D — finální checklist (fáze 4.5)
 ---
 Proveď fázi 4.5 dle CLAUDE.md.
 
-Projdi 6 kategorií: argument · evidence a čísla · metodika + reprodukovatelnost ·
+Projdi 7 kategorií: argument · evidence a čísla · metodika + reprodukovatelnost ·
 literatura + APA 7 (každá citace v textu má položku v seznamu a obráceně; žádný
-zdroj mimo `raw_secondary/`) · formální náležitosti fakulty (struktura dle šablony,
+zdroj mimo `raw_secondary/`) · FAKULTNÍ KRITÉRIA (celou sekci „Fakultní kritéria
+(FIS VŠE)" z CLAUDE.md položku po položce — komise podle ní argumentuje
+neobhajitelnost: cíl, východiska, metodika, značení výsledků, závěry, validace,
+stylistika a forma) · formální náležitosti fakulty (struktura dle šablony,
 pokrytí zadání, abstrakt CZ+EN, seznamy obrázků/tabulek/zkratek, prohlášení) ·
 čitelnost (ne počet slov — hlídej, zda dlouhá věta nese strukturu myšlenky).
 Poslední test: přečti jen 1. a poslední větu každé kapitoly — tvoří koherentní
