@@ -4,9 +4,11 @@ description: Blok C — psaní draftu po kapitolách (fáze 3.3)
 Proveď fázi 3.3 dle CLAUDE.md.
 
 Z artefaktů (`kostra.md`, `metodika.md`, `evidence.md`, `prechody.md`,
-`uvod-navrhy.md`) piš práci kapitolu po kapitole do `study/` jako LaTeX
-(`01-uvod.tex`, `02-....tex`, …) — jen obsah kapitol pro `\input` do fakultní
-šablony, žádné vlastní preambule. Dodržuj plánovaný rozsah. Čistý akademický
+`uvod-navrhy.md`) piš práci kapitolu po kapitole do souborů šablony ve `study/`
+(`uvod.tex`, `kapNN-nazev.tex`, `zaver.tex`) — jen obsah kapitol, žádné vlastní
+preambule; novou kapitolu přidej do `\include` seznamu v `prace.tex`. Nesahej
+na `makra.tex`, `zacatek.tex`, `biblatex-setup.tex`, `pdf-a.tex`. Dodržuj
+plánovaný rozsah. Čistý akademický
 text, citace `\parencite{key}`/`\textcite{key}`, obrázky a tabulky s `\caption`
 (+ zdroj), `\label` a `\ref` z textu; stylistika dle fakultních kritérií
 (neosobní forma, žádný budoucí čas, citace před tečkou, zkratky/pojmy zavedené

@@ -11,5 +11,8 @@ neobhajitelnost: cíl, východiska, metodika, značení výsledků, závěry, va
 stylistika a forma) · formální náležitosti fakulty (struktura dle šablony,
 pokrytí zadání, abstrakt CZ+EN, seznamy obrázků/tabulek/zkratek, prohlášení) ·
 čitelnost (ne počet slov — hlídej, zda dlouhá věta nese strukturu myšlenky).
-Poslední test: přečti jen 1. a poslední větu každé kapitoly — tvoří koherentní
-příběh? Zapiš `process/checklist.md`, zaloguj. Nabídni `/zaver` a `/abstrakt`.
+K formálním náležitostem patří i AI transparentnost: vyplněné `prohlaseniAI.tex`
++ příloha o použití AI (viz `/prohlaseni`) — bez nich práce neodpovídá pravidlům
+VŠE. Poslední test: přečti jen 1. a poslední větu každé kapitoly — tvoří
+koherentní příběh? Zapiš `process/checklist.md`, zaloguj. Nabídni `/zaver`,
+`/abstrakt` a `/prohlaseni`.

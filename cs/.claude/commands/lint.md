@@ -26,6 +26,8 @@ co mění význam):
   odkazu z textu nebo bez zdroje?
 - používá se pojem „SLR" bez dokumentovaného protokolu (klíčová slova, databáze,
   počty, kritéria výběru)?
+- je `process/ai-log.md` aktuální (pokrývá všechny proběhlé fáze)? je vyplněné
+  `prohlaseniAI.tex` a existuje příloha o použití AI?
 - prošly všechny quality gates z CLAUDE.md?
 - cyrilské homoglyfy v české sazbě? (strojová kontrola znaků)
 Navrhni opravy, ale rozhodnutí nech na člověku.

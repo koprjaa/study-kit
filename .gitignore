@@ -2,13 +2,14 @@
 *.tmp
 export/
 
-# CORPUS IS NOT COMMITTED (copyright): contents of raw_* stay local in both kits;
+# CORPUS IS NOT COMMITTED (copyright): contents of raw_* stay local;
 # only the empty folders are versioned via .gitkeep
 cs/raw_primary/*
 cs/raw_secondary/*
-en/raw_primary/*
-en/raw_secondary/*
 !cs/raw_primary/.gitkeep
 !cs/raw_secondary/.gitkeep
-!en/raw_primary/.gitkeep
-!en/raw_secondary/.gitkeep
+
+# FIS LaTeX template (SablonaBP-DP) is distributed via VŠE intranet —
+# unzip it into cs/study/ locally, don't commit it to a public repo
+cs/study/*
+!cs/study/.gitkeep

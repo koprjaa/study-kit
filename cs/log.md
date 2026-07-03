@@ -10,6 +10,13 @@ vyplň idea.md (vč. oficiálního zadání), pak spusť /teze
 
 ## Záznam
 <!-- YYYY-MM-DD  fáze  co se rozhodlo / co vzniklo -->
+2026-07-03  AI+šablona  Napojení na oficiální šablonu FIS (SablonaBP-DP):
+            study/ = rozbalená šablona, kit edituje jen kapitolové soubory,
+            literatura.bib, prace.tex (\include) a prohlaseniAI.tex; šablona
+            gitignorována (distribuce přes intranet). AI transparentnost dle
+            pravidel VŠE + citace AI dle CIKS: process/ai-log.md vedený po
+            každé fázi, nový /prohlaseni generuje prohlaseniAI.tex podklady
+            + přílohu o použití AI se zvýrazněným vlastním přínosem.
 2026-07-03  úprava   Kit zuniverzálněn pro FIS VŠE (ne jen AI/BI), odebrána
             anglická verze (en/), CLAUDE.md zhuštěn na ~440 řádků kvůli kontextu.
             LaTeX workflow: study/ = kapitoly .tex pro \input do fakultní
