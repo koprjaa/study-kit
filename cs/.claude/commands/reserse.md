@@ -6,7 +6,7 @@ Proveď ingest literatury dle CLAUDE.md, sekce „Literatura: ingest".
 Pro nový soubor v `raw_secondary/`:
 1. Ověř/dopiš BIBLIOGRAFICKÁ DATA (autor, rok, název, venue, DOI). Chybí-li,
    zeptej se člověka — NIKDY nedoplňuj odhadem (uhádnutý rok = vymyšlená citace
-   v malém). Přidej položku do `process/literatura.md` (APA 7).
+   v malém). Přidej BibTeX položku do `study/literatura.bib` (klíč `prijmeniROK`).
 2. Přečti zdroj a zkompiluj jeho POZICI (co tvrdí k tématu práce) — PARAFRÁZÍ,
    s provenance `(raw_secondary/<soubor> — „kotevní fráze")`. NECITUJ ho jako
    doklad o tvém systému, jen jako cizí pozici s atribucí.

@@ -10,6 +10,12 @@ vyplň idea.md (vč. oficiálního zadání), pak spusť /teze
 
 ## Záznam
 <!-- YYYY-MM-DD  fáze  co se rozhodlo / co vzniklo -->
+2026-07-03  úprava   Kit zuniverzálněn pro FIS VŠE (ne jen AI/BI), odebrána
+            anglická verze (en/), CLAUDE.md zhuštěn na ~440 řádků kvůli kontextu.
+            LaTeX workflow: study/ = kapitoly .tex pro \input do fakultní
+            šablony, study/literatura.bib (biblatex-apa, klíč prijmeniROK),
+            \parencite/\textcite, \caption+\label+\ref; /lint kontroluje
+            \cite ↔ .bib obousměrně.
 2026-07-03  pokyny  Zapracována fakultní kritéria FIS VŠE (Doporučení pro tvorbu
             závěrečných prací + pokyny vedoucího KIT): nová sekce „Fakultní
             kritéria" v CLAUDE.md; test formulace cíle v /teze; IMRaD + proporce
