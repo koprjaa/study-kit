@@ -1,13 +1,18 @@
 ---
-description: Blok A — krystalizace a stresový test teze (fáze 1.1 + 1.2)
+description: Blok A — krystalizace a stresový test výzkumné otázky (fáze 1.1 + 1.2)
 ---
 Proveď BLOK A dle CLAUDE.md, sekce „Fáze → BLOK A".
 
-Nejdřív si přečti `idea.md` a prohledej `raw_primary/`, ať víš, jestli má vhled v korpusu oporu.
+Nejdřív si přečti `idea.md` (vhled + oficiální zadání) a projdi `raw_primary/`
+(jsou data/artefakty?) a `raw_secondary/` (je z čeho situovat?).
 
-1.1: aplikuj test tezovitosti (5 podmínek) a předlož 5 reformulací podle rizika (A–E).
-Doporuč verzi pro cílový časopis, ale VOLBU NECH NA ČLOVĚKU — zeptej se a počkej.
-1.2: na zvolené tezi proveď 4 stresové testy (rozsah, strukturovatelnost, „so what", unikátnost).
+1.1: aplikuj test výzkumné otázky (5 podmínek: specifická, falzifikovatelná/měřitelná,
+zodpověditelná s dostupnými zdroji, nová vůči načtené literatuře, kryje zadání)
+a předlož 5 reformulací podle rizika (A deskriptivní → E provokativní).
+Doporuč verzi pro typ práce a fakultu, ale VOLBU NECH NA ČLOVĚKU — zeptej se a počkej.
+1.2: na zvolené otázce proveď 5 stresových testů (rozsah, strukturovatelnost,
+„so what", proveditelnost + kritické závislosti, měřitelnost — metriky a baseline).
 
-GATE: teze splňuje 5 podmínek tezovitosti i všechny 4 testy. Když ne, vrať se.
-Po průchodu zapiš `process/teze.md`, přidej řádek do `log.md` a navrhni `/kostra`.
+GATE: otázka splňuje 5 podmínek i všech 5 testů; kritické závislosti jsou zapsané.
+Když ne, vrať se. Po průchodu zapiš `process/teze.md`, přidej řádek do `log.md`
+a navrhni `/kostra` (nebo `/reserse`, je-li v `raw_secondary/` nenačtený zdroj).

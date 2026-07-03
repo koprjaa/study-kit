@@ -1,12 +1,14 @@
 ---
-description: Blok B — argumentační strategie + kostra (fáze 2.1 + 2.2)
+description: Blok B — struktura kapitol diplomky (fáze 2.1 + 2.2)
 ---
 Proveď fázi 2.1 + 2.2 dle CLAUDE.md.
 
-Posuď 5 strategií (kumulativní/dialektická/detektivní/vrstvená/komparativní), doporuč
-podle teze a časopisu — volbu nech na člověku. Pak pro každou sekci (5–7) definuj funkci,
-vstupní podmínku, výstupní stav, typ evidence a délku (% celku).
+Navrhni strukturu kapitol podle typu práce (návrhová / experimentální / BI-analytická)
+a šablony fakulty z `idea.md`. Typická kostra: Úvod → Rešerše → Teoretická východiska
+(volitelně) → Návrh/Metodika → Implementace → Experimenty a vyhodnocení → Diskuse →
+Závěr. Pro každou kapitolu definuj funkci, vstupní podmínku, výstupní stav, typ
+evidence (literatura / vlastní měření / konstrukce) a délku (% celku).
 
-GATE (test kostry): odeberu sekci → zhroutí se argument? prohodím dvě → změní se logika?
-je poslední sekce víc než zopakování teze? Po průchodu zapiš `process/kostra.md`,
-zaloguj a navrhni `/uvod`.
+GATE (test kostry): odeberu kapitolu → zhroutí se argument? prohodím dvě → změní se
+logika? je Diskuse+Závěr víc než zopakování výsledků? kryje kostra VŠECHNY body
+oficiálního zadání? Po průchodu zapiš `process/kostra.md`, zaloguj a navrhni `/metodika`.

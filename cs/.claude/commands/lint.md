@@ -1,19 +1,23 @@
 ---
-description: Kontrola integrity — provenance, doslovnost citátů, gates
+description: Kontrola integrity — čísla vs. artefakty, citace vs. zdroje, APA 7, gates
 ---
-Projdi `process/` a `study/` a nahlas (jako checklist, NEopravuj automaticky to, co mění význam):
-- nese KAŽDÁ poznámka pod čarou ve `study/` kotevní frázi + lokaci? (Holé „Tamtéž" smí
-  odkazovat jen na poznámku, která sama kotevní frázi má — provenance je výstupní artefakt,
-  ne jen ověření v průběhu; pravidlo 3.)
-- má každý citát/tvrzení o textu provenance do `raw_primary/`?
-- sedí citáty DOSLOVNĚ a SOUVISLE s `raw_primary/`? (namátkově ověř; přeházené pořadí,
-  slepené věty, neobhájené výpustky)
-- stojí nějaké tvrzení na opakovaném slově bez frekvenční kontroly?
-- stojí nějaký syntetický spoj jádra jen na shodě slov, ne na pojmu? (pravidlo 8)
-- nese nějaká sekundární pozice připsanou tezi přes pouhou shodu slov, ne v kontextu? (pravidlo 1, dvouvrstvé ověření)
-- je nějaká teze „zachráněna" tím, že její protipříklad převede na potvrzení? (pravidlo 8b)
+Projdi `process/` a `study/` a nahlas (jako checklist, NEopravuj automaticky to,
+co mění význam):
+- má každé číslo ve `study/` mapování v `process/evidence.md` (artefakt + kotva)?
+  (Provenance je výstupní artefakt, ne jen ověření v průběhu; pravidlo 3.)
+- uvádí každá tabulka/graf zdrojový artefakt z `raw_primary/`?
+- sedí čísla napříč abstraktem, textem a tabulkami? (strojově, grep — drift čísel)
+- pochází každé číslo z běhu, o kterém text tvrdí, že mluví? (config, dataset,
+  split — žádné frankentabulky; pravidlo 1)
+- existuje každý citovaný zdroj v `raw_secondary/` A v `process/literatura.md`?
+  sedí formát APA 7 (text i seznam)? nejsou v seznamu položky, které text necituje?
+- nesedí některá připsaná pozice jen na shodě slov mimo kontext? (dvouvrstvé
+  ověření; pravidlo 1)
+- stojí nějaké tvrzení na jediném běhu bez přiznání? (pravidlo 9)
+- stojí nějaký syntetický spoj jen na shodě slov/metrik, ne na férovém srovnání?
+  je kauzalita značená? (pravidlo 8)
+- je nějaký negativní výsledek „zachráněn" post-hoc příběhem? (pravidlo 8b)
+- jednotky a zaokrouhlování konzistentní? (zaokrouhlení nesmí otočit srovnání)
 - prošly všechny quality gates z CLAUDE.md?
-- stojí nějaká sekce jen na jednom citátu?
-- nesklouzlo se někde od postav k autorovi, k nálepkování, nebo k rejstříku mimo cílový časopis?
-- je každá rozvinutá pasáž interpretační prací nad dokladem (otáčí citát, vymezuje, čelí námitce), ne vatou (opis citátu/ozdoba) ani maltou bez cihly (tvrzení přes doklad)?
+- cyrilské homoglyfy v české sazbě? (strojová kontrola znaků)
 Navrhni opravy, ale rozhodnutí nech na člověku.

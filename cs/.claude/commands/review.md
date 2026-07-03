@@ -1,20 +1,24 @@
 ---
-description: Blok D — simulovaný recenzní posudek proti raw_primary/ (fáze 4.3)
+description: Blok D — simulovaný posudek proti raw_primary/ (fáze 4.3)
 ---
 Proveď fázi 4.3 dle CLAUDE.md.
 
-KLÍČOVÉ: konfrontuj draft ze `study/` PROTI primárním textům v `raw_primary/`. Draft NEBER
-jako zdroj pravdy — tvůj výtvor nesmí validovat sám sebe. U každého tvrzení draftu ověř,
-zda sedí s `raw_primary/`.
+KLÍČOVÉ: konfrontuj draft ze `study/` PROTI artefaktům v `raw_primary/`. Draft
+NEBER jako zdroj pravdy o výsledcích — tvůj výtvor nesmí validovat sám sebe.
 
-Tři tvrdé kontroly proveď VŽDY:
-- věrnost citátů (doslovnost + kontiguita; pravidlo 1),
-- frekvence „důkazů" (grep; pravidlo 9),
-- spoje, ne cihly — syntetický spoj jádra stojí na pojmu, ne na shodě slov (pravidlo 8).
-A zvlášť prověř ohraničení teze (pravidlo 8b): je některý text, na který se teze nerozšíří,
-„zachráněn" vývojovým příběhem nebo „výjimkou, co potvrzuje pravidlo"? Pokud ano, je to
-námitka — správné ohraničení je ověření na protikladu (chybí předpoklad → chybí účinek).
+Tvrdé kontroly proveď VŽDY a doložitelně:
+- VĚRNOST ČÍSEL: každé číslo v textu najdi v artefaktu a ověř, že pochází z běhu,
+  o kterém text mluví (config, dataset, split). Žádné frankentabulky (pravidlo 1).
+- CHERRY-PICKING: u každého reportovaného výsledku zjisti, kolik běhů v `raw_primary/`
+  existuje celkem — je reportovaný reprezentativní, nebo nejlepší z mnoha? (pravidlo 9)
+- KONZISTENCE: strojově (grep) porovnej klíčová čísla napříč abstraktem, textem
+  a tabulkami.
+- SPOJE, NE CIHLY: u syntetických tvrzení ověř férovost srovnání (stejná data,
+  podmínky) a značení kauzality — korelace není kauzalita (pravidlo 8).
+- OHRANIČENÍ (8b): není negativní/nepotvrzující výsledek „zachráněn" post-hoc
+  příběhem? Negativní výsledek se reportuje jako negativní.
 
-Napiš posudek: shrnutí, původní příspěvek, silné stránky, hlavní námitky (popis + požadavek
-+ závažnost), drobné připomínky, verdikt, a 1 nejdůležitější větu. U námitek ukaž, kde se
-draft míjí s `raw_primary/`. Zapiš `process/posudek.md`, zaloguj, navrhni `/revize`.
+Napiš posudek: shrnutí, původní příspěvek, silné stránky, hlavní námitky (popis +
+požadavek + závažnost), drobné připomínky, verdikt, a 1 nejdůležitější větu.
+U námitek ukaž, kde se draft míjí s artefakty. Zapiš `process/posudek.md`,
+zaloguj, navrhni `/revize`.

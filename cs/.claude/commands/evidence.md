@@ -1,13 +1,17 @@
 ---
-description: Blok B/C — výběr evidence z raw_primary/ + analytická hloubka (fáze 2.4 + 3.1)
+description: Blok B/C — výběr evidence z raw_primary/ + analytická hloubka (fáze 2.5 + 3.1)
 ---
-Proveď fázi 2.4 a navazující 3.1 dle CLAUDE.md.
+Proveď fázi 2.5 a navazující 3.1 dle CLAUDE.md.
 
-2.4: pro každou sekci PROHLEDEJ `raw_primary/` a najdi 4–6 kandidátních pasáží S PROVENANCE
-(soubor + lokace, citát doslovně). Ohodnoť 1–5 (relevance, přesvědčivost, reprezentativnost,
-multifunkčnost, nezávislost), vyber hlavní + podpůrné důkazy.
-RED FLAG: žádná pasáž > 3 → sekce nepodložitelná. NIKDY nedoplňuj vymyšlený citát —
-nahlas, že korpus oporu nedává.
+2.5: pro každou kapitolu / nosné tvrzení PROHLEDEJ `raw_primary/` a najdi 4–6
+kandidátních dokladů S PROVENANCE (soubor + kotva: metrika/řádek/ID běhu).
+Ohodnoť 1–5 (relevance, průkaznost — opakované běhy > jeden běh, reprezentativnost
+— ne cherry-pick, multifunkčnost, nezávislost), vyber hlavní + podpůrné doklady.
+RED FLAG: žádný doklad > 3 → tvrzení nepodložitelné → navrhni chybějící experiment
+(rozhodne člověk), nebo tvrzení oslab/vyhoď. NIKDY nedoplňuj vymyšlené číslo —
+nahlas, že artefakty oporu nedávají.
 
-3.1: pro každý klíčový citát proveď 5 testů (parafráze, spojení s tezí, vrstevnatost ≥2 z 5,
-přechod, vzorový odstavec). Zapiš/dopiš `process/evidence.md`, zaloguj, navrhni `/prechody`.
+3.1: pro každý klíčový výsledek proveď testy hloubky (interpretace, spojení
+s otázkou, vrstevnatost ≥2 z 5: deskriptivní/komparativní/statistická/praktická/
+limity, rozvinutí: co znamená / co NEznamená / námitka + odpověď).
+Zapiš/dopiš `process/evidence.md` (mapa tvrzení → artefakt), zaloguj, navrhni `/prechody`.
