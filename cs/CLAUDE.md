@@ -157,7 +157,8 @@ u obhajoby nese člověk, ne ty).
   NIKDY nedoplňuj odhadem. Uhádnutý rok je vymyšlená citace v malém.
 - **Obrázky a tabulky:** vždy `\caption` (+ zdroj: „Vlastní zpracování podle X"),
   `\label` a odkaz `\ref` z textu — nikdy „obrázek níže". Nic, na co text
-  neodkazuje.
+  neodkazuje. Převzaté obrázky/tabulky překreslit do češtiny, ne skenovat
+  z originálu.
 - Interní kotevní fráze (pravidlo 3) žijí v `process/`; do `.tex` jde čistá
   citace. Obojí musí existovat — citace pro čtenáře, kotva pro ověřitelnost.
 
