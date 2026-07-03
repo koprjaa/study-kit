@@ -1,36 +1,85 @@
 # Diplomka na FIS VŠE — Claude Code kit
 
-Fork [study-kit](https://github.com/josefslerka/study-kit) Josefa Šlerky,
-adaptovaný z literárněvědné studie na **závěrečné práce na FIS VŠE**
-(informatika, datová analytika, statistika, BI, informační systémy…).
+*Fork [study-kit](https://github.com/josefslerka/study-kit) Josefa Šlerky,
+adaptovaný z literárněvědné studie pro závěrečné práce na FIS VŠE
+(APA 7, LaTeX, fakultní kritéria obhajitelnosti).*
 
-Reprodukovatelný pipeline, ve kterém tě Claude Code provede psaním diplomky —
-od surového nápadu k hotové, ve výsledcích a literatuře ukotvené práci v LaTeXu.
-Autorem a tím, kdo ručí za pravdivost před komisí, zůstává člověk. Postaveno na
-LLM-wiki vzoru Andreje Karpathyho (neměnné syrové zdroje → odvozené artefakty,
-grounding, provenience, nepřátelský posudek).
+Napiš diplomku tak, že tě Claude Code provede celým procesem od surového nápadu
+k hotovému textu. `raw_primary/` jsou tvoje vlastní artefakty (data, logy
+experimentů, výsledky, transkripty), `raw_secondary/` je literatura — Claude
+z nich čte přímo a každé číslo i citaci ověřuje proti zdroji. Výstupem jsou
+kapitoly přímo v oficiální LaTeX šabloně FIS.
 
-**Kit je v adresáři [`cs/`](cs/README.md)** — kompletní projekt: `CLAUDE.md`
-(mozek s fakultními kritérii FIS), slash příkazy a složky. Zkopíruj, vyplň
-`idea.md`, spusť `claude`.
+## Co je uvnitř
 
-Hlavní odchylky od originálu:
+```
+CLAUDE.md            Metoda + pravidla + fakultní kritéria FIS. Mozek kitu.
+idea.md              Zárodek: vhled/otázka, oficiální zadání, program, rozsah.
+raw_primary/         Vlastní artefakty: data, logy běhů, metriky, transkripty.
+                     Append-only — nové běhy = nové soubory, nic se needituje.
+raw_secondary/       Literatura (papery, dokumentace). NEMĚNNÁ. Jediný zdroj citací.
+process/             Pracovní artefakty (teze, reserse, metodika, evidence,
+                     posudek, ai-log…).
+study/               Oficiální šablona FIS (SablonaBP-DP). Claude edituje jen
+                     kapitoly, literatura.bib, prace.tex a prohlaseniAI.tex.
+log.md               Stav + audit. Claude to čte na startu, ví, kde jste skončili.
+.claude/commands/    Slash příkazy pro každou fázi.
+```
 
-- `raw_primary/` = **vlastní artefakty** (data, logy experimentů, metriky,
-  transkripty) místo literárního korpusu; `raw_secondary/` = literatura
-- citace **APA 7** přes biblatex-apa, výstup **LaTeX kapitoly** do fakultní šablony
-- nová fáze `/metodika` (data, baseline, metriky, hrozby validity, povinná
-  validace u DP), `/reserse` s rešeršním protokolem (SLR)
-- **fakultní kritéria obhajitelnosti FIS** zadrátovaná v quality gates
-- `/review` cílí na věrnost čísel, cherry-picking a férovost srovnání;
-  `/oponent` přidává otázky k obhajobě
+## Rozjezd (5 minut)
 
-**Nekomituj svůj korpus.** `raw_primary/` a `raw_secondary/` jsou git-ignored:
-vlastní data a literatura pod copyrightem patří jen na lokální disk.
+1. **Naklonuj repo** do nového projektu, přejmenuj podle tématu.
+2. **Vlož artefakty do `raw_primary/`** a literaturu do `raw_secondary/` —
+   obojí může zpočátku být skoro prázdné, artefakty přibývají s experimenty.
+   (Obě složky jsou git-ignored — data a literatura zůstávají lokálně.)
+3. **Vyplň `idea.md`** — vhled, oficiální zadání, program, rozsah.
+4. **Spusť Claude Code ve složce:** `claude`. Načte `CLAUDE.md` automaticky.
+5. **Napiš `/teze`** (nebo jen „začni"). Claude tě povede fázi po fázi,
+   u každého rozhodnutí se zeptá, u každého gate počká.
+
+## Fáze = slash příkazy
+
+| Příkaz | Fáze |
+|---|---|
+| `/teze` | Krystalizace + stresový test výzkumné otázky (Blok A) |
+| `/kostra` | Struktura kapitol logikou IMRaD, dle zadání (2.1–2.2) |
+| `/metodika` | Data, baseline, metriky, protokol, validita, validace (2.3) |
+| `/uvod` | Design úvodu (2.4) |
+| `/reserse` | Ingest literatury + BibTeX + rešeršní protokol |
+| `/evidence` | Mapa tvrzení → artefakt + analytická hloubka (2.5 + 3.1) |
+| `/prechody` | Přechody mezi kapitolami (3.2) |
+| `/draft` | Psaní kapitol do šablony (3.3) |
+| `/diagnostika` | Diagnostika na 5 osách (4.1) |
+| `/skrty` | Škrty — vč. encyklopedických pasáží (4.2) |
+| `/review` | Posudek proti `raw_primary/`: čísla, cherry-picking, spoje (4.3) |
+| `/revize` | Revize dle posudku (4.4) |
+| `/oponent` | Oponentura: přínos, novost, otázky k obhajobě |
+| `/checklist` | Finální checklist vč. fakultních kritérií FIS (4.5) |
+| `/zaver`, `/abstrakt` | Závěr, abstrakt CZ+EN |
+| `/prohlaseni` | Prohlášení o AI + příloha o použití AI (z `process/ai-log.md`) |
+| `/stav` | Kde jsme a co dál |
+| `/lint` | Kontrola: čísla vs. artefakty, \cite vs. .bib, stylistika, AI log |
+
+## Pár pravidel, ať se to nerozpadne
+
+- **Žádné číslo mimo `raw_primary/`, žádný zdroj mimo `raw_secondary/`.**
+  Vymyšlená citace a „dopočítané" číslo jsou dvě nejčastější AI selhání
+  v kvalifikačních pracích — kit je blokuje tvrdými pravidly.
+- **Fakultní kritéria FIS jsou zadrátovaná v gates** — formulace cíle, IMRaD,
+  značení původní/převzaté/spekulace, povinná validace u DP, stylistika.
+- **AI transparentnost dle VŠE je zabudovaná.** Kit vede `process/ai-log.md`
+  (co AI dělala, co je tvůj přínos) a `/prohlaseni` z něj vygeneruje prohlášení
+  i povinnou přílohu. Necitovaný výstup AI = podvod; citace AI dle CIKS
+  (knihovna.vse.cz/citace/ai).
+- **Verzuj přes Git**, privátní repo. **Nekomituj korpus** (`raw_primary/`,
+  `raw_secondary/` jsou v `.gitignore` — vlastní data a literatura pod copyrightem).
+- **Drž lidskou smyčku.** Claude generuje a ověřuje, ty rozhoduješ — a ty ručíš
+  za práci před komisí.
 
 ---
 
 Původní workflow: Josef Šlerka, „AI-Assisted Academic Writing Pipeline"
-(jaro 2026). Adaptujte volně.
+(jaro 2026), podle vzorce LLM-wiki (Andrej Karpathy). LaTeX šablona ve `study/`:
+Vilém Sklenák, VŠE FIS (viz `study/Cti.mne`).
 
 **Licence:** [MIT](LICENSE) © 2026 Josef Šlerka (originál) / adaptace pro FIS VŠE.

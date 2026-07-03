@@ -25,7 +25,7 @@ raw_secondary/  Literatura: papery, kapitoly, dokumentace, normy. NEMĚNNÁ. Zdr
 idea.md         Zárodek: vhled/otázka + oficiální zadání + program, šablona, rozsah.
 process/        Tvé pracovní artefakty (teze, reserse, metodika, kostra, evidence,
                 posudek...).
-study/          Rozbalená oficiální šablona FIS (SablonaBP-DP, rozbalí ji člověk).
+study/          Oficiální šablona FIS (SablonaBP-DP, součást kitu).
                 Edituješ JEN: kapitolové soubory (uvod.tex, kapNN.tex, zaver.tex),
                 literatura.bib, proměnné v prace.tex (+ \include nových kapitol),
                 prohlaseniAI.tex, app*.tex. Nikdy nesahej na makra.tex, zacatek.tex,

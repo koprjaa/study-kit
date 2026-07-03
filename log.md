@@ -10,6 +10,10 @@ vyplň idea.md (vč. oficiálního zadání), pak spusť /teze
 
 ## Záznam
 <!-- YYYY-MM-DD  fáze  co se rozhodlo / co vzniklo -->
+2026-07-03  struktura  Repo zploštěno: obsah cs/ přesunut do kořene (složka
+            byla po odebrání en/ zbytečná), jeden README. Šablona FIS
+            (SablonaBP-DP) rozbalena přímo do study/ a komitována na pokyn
+            autora; gitignore kryje raw_* a LaTeX build artefakty.
 2026-07-03  AI+šablona  Napojení na oficiální šablonu FIS (SablonaBP-DP):
             study/ = rozbalená šablona, kit edituje jen kapitolové soubory,
             literatura.bib, prace.tex (\include) a prohlaseniAI.tex; šablona
